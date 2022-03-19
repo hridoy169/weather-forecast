@@ -5,8 +5,8 @@ const updateCity = async (city) => {
   const weather = await getWeather(cityDets.Key);
 
   return {
-    cityDets: cityDets,
-    weather: weather,
+    cityDets,
+    weather,
   };
 };
 
